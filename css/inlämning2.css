@@ -35,7 +35,7 @@ header {
 }
 
 img.me {
-    margin: 5%;
+    margin: 2%;
     width: 33%;
     border-radius: 20px;
 }
@@ -53,7 +53,7 @@ img.me {
         to {color: rgb(0, 0, 0, 1);}  
 }
 
-article > #home > a, .button {
+section > #home > a, .button {
     background-color: rgba(53, 32, 63, 0.7);
     border-radius: 30px;
     margin: 2%;
@@ -62,7 +62,7 @@ article > #home > a, .button {
     text-decoration: none;
 }
 
-article > #home > a:hover,
+section > #home > a:hover,
 .button:hover{
     background-color:rgba(74, 44, 89, 0.500) ;
     color:black;
@@ -73,6 +73,11 @@ article > #home > a:hover,
     flex-direction: column;
     align-items: center;
     padding: 3%;
+}
+
+#about-me > h3 {
+    margin: 4%;
+    color: black;
 }
 
 .about-box {
@@ -86,7 +91,7 @@ article > #home > a:hover,
     padding: 2%;
 }
 
-#contact > article > p {
+#contact > aside > p {
     font-size: 10pt;
 }    
 
@@ -118,7 +123,7 @@ article > #home > a:hover,
     padding: 0;
 }
 
-#contact > article {
+#contact > aside {
     margin-top: 0%;
     color: black;
     display: flex;
@@ -206,7 +211,7 @@ footer > a {
         background-color: rgba(53, 32, 63, 0.7);
     }
 
-    #contact > article {
+    #contact > aside {
         margin-top: 10%;
     }
 
@@ -218,7 +223,7 @@ footer > a {
         font-size: 12pt;
     }
 
-    #contact > article > p {
+    #contact > aside > p {
         font-size: 12pt;
     }  
     
@@ -246,7 +251,7 @@ footer > a {
         font-size: 17pt;
     }
 
-    #contact > article > p {
+    #contact > aside > p {
         font-size: 17pt;
     }  
 }
